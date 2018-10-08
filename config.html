@@ -28,24 +28,46 @@
 			<div class="wrap-login100">
 				<div class="col-sm-12 col-md-12 templatemo_col12" align="center">
 				<span class="login100-form-title">
-					FOTOGRAFIAR PARTITURA O TAB
+					Configuración
 				</span>
 				&nbsp;
-				<img src="images/escaneo.jpg" alt="IMG">
-				&nbsp;
+				<div class="container	align-center">
 				
-				<form action="exito.php" method="POST" class="login100-form validate-form">
+				<div class="row">
+				<input type="checkbox" name="vehicle" value="Bike"> Guardar como MIDI.
+				</div>
+
+				<br>
+
+			   <div class="row">
+				<input type="checkbox" name="vehicle" value="Bike"> Guardar partitura como imagen.
+				</div>
+
+				<br>
+
+				<div class="row">
+				<img src="images/folder.png" alt="IMG" height="15" width="15">&nbsp;Carpeta de Salida
+				</div>
+				<div class="row">
+				<input type="file" name="adjunto" accept=".pdf,.jpg,.png" multiple>
+				</div>
+				</div>
+				<br>
+
+
+				<div method="POST" class="login100-form validate-form">
 					<button class="login100-form-btn">
-						<img src="images/camara.png" alt="IMG" height="42" width="42">
-						&nbsp;&nbsp;Tomar foto
+					Guardar
 					</button>
-				</form>
+				</div>
 				&nbsp;
-				<form action="inicio.php" method="POST" class="login100-form validate-form">
+				<div class="login100-form validate-form">
+				<a href="index.html">
 					<button class="login100-form-btn" style="background-color: #FF9900">
 						Volver
 					</button>
-				</form>
+				</a>
+				</div>
 				</div>
 			</div>
 		</div>
